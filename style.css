@@ -1,0 +1,42 @@
+* {
+    font-family: Circular Std, 'General Sans';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+input[type="text"] {
+    text-align: center;
+    border: 1px solid grey;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+input[type="text"]:focus {
+    outline: none;   
+}
+
+#add {
+    text-transform: uppercase;
+    margin: 1rem 0;
+    padding: 0.3rem 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    margin-left: -2.9rem;
+}
+
+label {
+    text-transform: uppercase;
+}
+
